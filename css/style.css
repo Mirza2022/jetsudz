@@ -1,5 +1,5 @@
-.mainContainer{
-background-color:rgba(33, 37, 41);
+.mainContainer {
+	background-color: rgba(33, 37, 41);
 }
 
 /* Start Header Styles */
@@ -8,24 +8,50 @@ background-color:rgba(33, 37, 41);
 	font-weight: 800px;
 	font-size: 20px;
 }
+
 .navbar-dark .navbar-nav .nav-link:hover {
 	color: #00bfcb !important;
 }
+
 .navbar-dark .btn-primary:hover {
 	background-color: #00bfcb !important;
 	border-color: #36df66 !important;
 }
 /* End Header Styles */
 
+/* Start Section Styles */
+.aboutSection{
+	background: linear-gradient(rgba(0,0,0,.1), rgba(0,0,0,.1)), url('../img/aboutHero.jpg');
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+}
+.serviceSection {
+	background: linear-gradient(rgba(0, 0, 0, .1), rgba(0, 0, 0, .1)), url('../img/aboutHero.jpg');
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+}
+.eventSection{
+	background: linear-gradient(rgba(0,0,0,.1), rgba(0,0,0,.1)), url('../img/aboutHero.jpg');
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+}
+#hero .heroContent{
+	height: 70vh;
+}
+/* End Section Styles */
+
 .logo {
-	width:  4%;
-	height:  4%;
+	width: 4%;
+	height: 4%;
 }
 
 /* ==== NAV BAR NAV LINKS STYLES END === */
 
 .w-100 {
-	
+
 	height: 600px !important;
 }
 
@@ -34,7 +60,7 @@ background-color:rgba(33, 37, 41);
 	font-size: 17px;
 }
 
-.sideNav :hover{
+.sideNav :hover {
 	background-color: #00bfcb !important;
 	color: black !important;
 }
@@ -50,7 +76,7 @@ tr td:last-child {
 	white-space: nowrap;
 }
 
-.mapSection{
+.mapSection {
 	background-color: white;
 }
 
@@ -60,43 +86,24 @@ tr td:last-child {
 .titleUnderline {
 	width: 80%;
 	height: 2px;
-	margin:auto;
+	margin: auto;
 }
 
-/* ==== HERO STYLES === */
-
-.aboutSection{
-	background: linear-gradient(rgba(0,0,0,.1), rgba(0,0,0,.1)), url('../img/aboutHero.jpg');
-		background-size: cover;
-			background-position: center center;
-			background-attachment: fixed;
-}
-
-.serviceSection {
-	background: linear-gradient(rgba(0, 0, 0, .1), rgba(0, 0, 0, .1)), url('../img/aboutHero.jpg');
-	background-size: cover;
-	background-position: center center;
-	background-attachment: fixed;
-}
-
-#hero .heroContent{
-	height: 70vh;
-}
 
 
 
 /* ==== CARD STYLES === */
 
-.cards{
-	border:none;
+.cards {
+	border: none;
 	background-color: white;
 
 }
 
-.card-img-top{	
+.card-img-top {
 	border-radius: 15%;
 	display: block;
-		
+
 }
 
 /* ==== MAP STYLES === */
@@ -114,16 +121,16 @@ tr td:last-child {
 	font-size: 20px;
 }
 
-.navbar-light .navbar-nav .nav-link.active{
+.navbar-light .navbar-nav .nav-link.active {
 	color: rgba(244, 4, 4, 0.55);
 }
 
-.searchBtn{
+.searchBtn {
 	background: rgb(82, 21, 203);
-	color:red;
+	color: red;
 }
 
-#book-now-form{
+#book-now-form {
 	text-align: left;
 }
 
@@ -135,7 +142,7 @@ tr td:last-child {
 	text-align: left;
 }
 
-#register-form{
+#register-form {
 	text-align: left;
 
 }
@@ -145,31 +152,30 @@ tr td:last-child {
 
 }
 
-.btn-close{
+.btn-close {
 	color: red;
 }
 
 .modal-header{
 	background-color: rgb(20,188,206);
-	color: ghostwhite;
+	color: white;
 }
-	.modal-body{
-		background-color: white;
-	}
-	.form-label{
-		font-weight: 400;		
-	}
+.modal-body{
+	background-color: #f5fff5;
+}
+.form-label{
+	font-weight: 400;		
+}
 .modalBtn{
-	background-color: rgb(40,56,70);
-	color: ghostwhite;
+background-color: rgb(40,56,70);
+color: white;
 }
 
-#custTbl thead{
-	background-color: rgb(20,188,206) !important;
+#custTbl thead {
+	background-color: rgb(20, 188, 206) !important;
 	text-align: left !important;
 }
 
 /* ===============  END FORMS STYLES ==================== */
 
 /* ===============  SOCIAL MEDIA ICON STYLES ==================== */
-
