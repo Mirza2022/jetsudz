@@ -54,7 +54,7 @@
                         <div class="col-2">
                             <form action="view/charge.php" method="post">
 
-                                <script src="https://checkout.stripe.com/checkout.js" class="stripe-button" data-key="<?php echo $stripe['publishable_key']; ?>" data-description="Confirm Email and Card Info" data-amount="5000" data-locale="auto">
+                                <script src="https://checkout.stripe.com/checkout.js" class="stripe-button" data-key="<?php echo $stripe['publishable_key']; ?>" data-description="Confirm Email and Card Info" data-amount="500" data-locale="auto">
                                 </script>
 
                             </form>
