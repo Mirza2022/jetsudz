@@ -55,7 +55,6 @@
     var myProfile = document.getElementById('profile');
 
     var displayService = myServices.style.display;
-    var displaySschedule = mySchedules.style.display;
 
     if (displayService == 'none') {      
       myServices.style.display = 'block';

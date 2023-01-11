@@ -40,12 +40,6 @@
                                 <?php include_once './view/continue.php'; ?>
                             <?php } ?>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="./about.php">About</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="./services.php">Services</a>
-                            </li>
 
                             <li class="nav-item">
                                 <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#reg-service-form">Register Service</a>

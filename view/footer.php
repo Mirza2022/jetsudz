@@ -97,7 +97,7 @@
                                 <a href="#" style="color: #36df66">Contact Us</a>
                             </div>
                             <div>
-                                <a href="#" style="color: #36df66">Services</a>
+                                <a href="./services.php" style="color: #36df66">Services</a>
                             </div>
                             <div>
                                 <a href="#" style="color: #36df66">Billing</a>
